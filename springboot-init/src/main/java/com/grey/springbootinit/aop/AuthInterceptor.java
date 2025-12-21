@@ -3,9 +3,10 @@ package com.grey.springbootinit.aop;
 import com.grey.springbootinit.annotation.AuthCheck;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
-import org.aspectj.lang.annotation.Aspect;
-import org.springframework.stereotype.Component;
 
+/**
+ * AOP 实现的鉴权拦截
+ */
 //@Aspect
 //@Component
 public class AuthInterceptor {
