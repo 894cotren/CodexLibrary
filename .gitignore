@@ -2,7 +2,7 @@
 application-local.yml
 tmp
 application-prod.yml
-
+.mvn
 
 HELP.md
 target/
