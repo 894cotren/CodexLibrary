@@ -1,11 +1,10 @@
-package com.grey.designpattern.rulestree.service.trial.factory;
+package com.grey.designpattern.rulestree.service.standard.factory;
 
 
 import com.grey.designpattern.rulestree.entity.MarketProductEntity;
 import com.grey.designpattern.rulestree.entity.TrialBalanceEntity;
-import com.grey.designpattern.rulestree.service.trial.node.RootNode;
+import com.grey.designpattern.rulestree.service.standard.node.RootNode;
 import com.grey.designpattern.rulestree.treebase.StrategyHandler;
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -20,7 +19,7 @@ public class DefaultActivityStrategyFactory {
     private final RootNode rootNode;
 
     /**
-     * 构造器注入
+     * 构造器注入，根节点开始。
      * @param rootNode 根节点
      */
     public DefaultActivityStrategyFactory(RootNode rootNode) {
@@ -33,11 +32,11 @@ public class DefaultActivityStrategyFactory {
 
 
     /**
-     * 上下文类，用于节点间传递上下文
+     * 上下文类，用于节点间传递上下文。
+     * 当前无字段；有字段后如需全参构造器可再加 @AllArgsConstructor（无字段时与 @NoArgsConstructor 会重复生成无参构造器）。
      */
     @Data
     @Builder
-    @AllArgsConstructor
     @NoArgsConstructor
     public static class DynamicContext {
 

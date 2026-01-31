@@ -1,4 +1,4 @@
-package com.grey.designpattern.rulestree.service;
+package com.grey.designpattern.rulestree.service.standard;
 
 import com.grey.designpattern.rulestree.entity.MarketProductEntity;
 import com.grey.designpattern.rulestree.entity.TrialBalanceEntity;

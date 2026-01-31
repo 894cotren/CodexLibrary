@@ -1,7 +1,7 @@
-package com.grey.designpattern.rulestree.service.trial;
+package com.grey.designpattern.rulestree.service.standard;
 
 
-import com.grey.designpattern.rulestree.service.trial.factory.DefaultActivityStrategyFactory;
+import com.grey.designpattern.rulestree.service.standard.factory.DefaultActivityStrategyFactory;
 import com.grey.designpattern.rulestree.treebase.AbstractStrategyRouter;
 
 /**

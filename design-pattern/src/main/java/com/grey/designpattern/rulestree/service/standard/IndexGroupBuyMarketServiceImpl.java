@@ -1,9 +1,9 @@
-package com.grey.designpattern.rulestree.service;
+package com.grey.designpattern.rulestree.service.standard;
 
 
 import com.grey.designpattern.rulestree.entity.MarketProductEntity;
 import com.grey.designpattern.rulestree.entity.TrialBalanceEntity;
-import com.grey.designpattern.rulestree.service.trial.factory.DefaultActivityStrategyFactory;
+import com.grey.designpattern.rulestree.service.standard.factory.DefaultActivityStrategyFactory;
 import com.grey.designpattern.rulestree.treebase.StrategyHandler;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
