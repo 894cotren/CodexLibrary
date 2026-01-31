@@ -9,7 +9,7 @@ package com.grey.designpattern.rulestree.treebase;
 public interface StrategyHandler<T, D, R> {
 
     /**
-     * 定义一个默认为空的策略结点
+     * 定义一个默认返回值为空的策略结点（兜底）
      */
     StrategyHandler DEFAULT = (T, D) -> null;
 
