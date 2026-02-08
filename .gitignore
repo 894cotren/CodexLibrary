@@ -2,6 +2,7 @@
 application-local.yml
 tmp
 application-prod.yml
+application-dev.yml
 .mvn
 
 HELP.md
