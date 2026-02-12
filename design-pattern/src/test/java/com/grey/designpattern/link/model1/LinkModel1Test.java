@@ -1,7 +1,5 @@
-package com.grey.designpattern;
+package com.grey.designpattern.link.model1;
 
-import com.grey.designpattern.link.model1.ILogicLink;
-import com.grey.designpattern.link.model1.Rule01TradeRuleFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
