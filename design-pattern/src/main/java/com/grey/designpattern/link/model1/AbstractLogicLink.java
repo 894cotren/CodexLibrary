@@ -19,7 +19,7 @@ public abstract class AbstractLogicLink<T, D, R> implements ILogicLink<T, D, R> 
         return next;
     }
 
-    // 封装执行下一个结点的方法
+    // 封装执行下一个结点的方法 （然后参数、上下文对象也是一个责任链所有结点共用的）
     protected R invokeNext(T requestParameter, D dynamicContext) throws Exception {
         return next.apply(requestParameter, dynamicContext);
     }
