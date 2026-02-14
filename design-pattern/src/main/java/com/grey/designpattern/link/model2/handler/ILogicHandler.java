@@ -7,6 +7,13 @@ package com.grey.designpattern.link.model2.handler;
 public interface ILogicHandler<T, D, R> {
 
     /**
+     * 这个是可读性用的，虽然本质也是return null， 但是中间结点调用这个方法return next(x,x),语义上可以更好诶。
+     */
+    default R next(T requestParameter, D dynamicContext) {
+        return null;
+    }
+
+    /**
      * 具体处理逻辑的接口
      *
      */
